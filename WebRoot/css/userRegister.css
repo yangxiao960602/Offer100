@@ -1,0 +1,36 @@
+.userReg{
+	width:400px;
+	height:360px;
+	border:1px gray solid;
+}
+
+.mytitle{
+	color: #EE2C2C;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content{
+	width:340px;
+	height:360px;
+	border:1px solid gray;
+	margin:0 auto;
+}
+
+.content td{
+	width:112px;
+	height: 51px;
+}
+
+.myImag{
+	border:1px solid gray;
+}
+
+.registerbutton{
+	width:60px;
+	height: 30px;
+	background-color:#EE2C2C;
+	color: white;
+	border: none;
+}

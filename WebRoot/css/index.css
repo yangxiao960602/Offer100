@@ -1,0 +1,177 @@
+@charset "UTF-8";
+ 
+ .bgcolor{
+ background:#fff;
+ }
+ 
+
+ #colee1 ul li{
+ text-decoration: none;
+ }
+ #colee2 ul li{
+ text-decoration: none;
+ }
+  .img-bgcolor{
+ background:rgba(0, 0, 0, 0.2);
+ }
+ 
+ .navg a {text-decoration: none;}
+ .navg ul li a{ color:#000; /*无链接时颜色*/ }  
+ .navg ul li a:hover{color:#ee2c2c;/*鼠标经过链接时颜色*/}
+.navg ul li a:hover{
+    background:#fff;
+    display:block;
+}
+
+.navg ul li{
+ text-align:center;
+ font-size:1em;
+}
+ul, ol, li {
+margin: 0px;
+padding: 0px;
+border: 0px none;
+}
+
+/* 设置二级菜单绝对定位，并隐藏 */
+.navg > ul > li > ul {
+        position: absolute;
+        display: none;
+    }
+/* 设置二级菜单的li的样式 */
+.navg > ul > li > ul > li {
+        float: none;
+    }
+/* 鼠标放在一级菜单上，显示二级菜单 */
+.navg > ul > li:hover ul {
+        display: block;
+    }
+/* 二级菜单的样式 */
+.navg> ul > li > ul > li {
+        line-height: 36px;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-top: none;
+        display: block; 
+    }  
+/* 在二级菜单中，鼠标放上去的样式 */
+.navg > ul > li > ul > li > a:hover {
+	    color:#fff;
+        background-color: #ee2c2c;
+    }
+ 
+/*设置按钮样式*/
+.b{
+	background: rgba(255, 255, 255, 0);
+	color:#fff;
+	text-decoration: none;
+	border:none;
+}
+    
+    
+/*设置同一行间距*/
+.margin1{
+	width:20%;
+	height:40px;
+	position:absolute;
+	float:left;
+	left:10%;
+	border:solid 0.5px grey;
+}
+.margin2{
+	width:20%;
+	height:40px;
+	position:absolute;
+	float:left;
+	left:40%;
+	border:solid 0.5px grey;
+}
+.margin3{
+	width:20%;
+	height:40px;
+	position:absolute;
+	float:left;
+	left:70%;
+	border:solid 0.5px grey;
+}
+.margin4{
+	width:20%;
+	height:210px;
+	position:absolute;
+	float:left;
+	left:10%;
+	border:solid 0.5px grey;
+}
+.margin5{
+	width:20%;
+	height:210px;
+	position:absolute;
+	float:left;
+	left:40%;
+	border:solid 0.5px grey;
+}
+.margin6{
+	width:20%;
+	height:210px;
+	position:absolute;
+	float:left;
+	left:70%;
+	border:solid 0.5px grey;
+}
+
+.padd1{
+	width:50%;
+	position:absolute;
+	float:left;
+	text-align:center;
+	left:1%;
+}
+.padd2{
+	width:50%;
+	position:absolute;
+	float:left;
+	text-align:center;
+	left:50%;
+}
+
+.pic1{
+	width:20%;
+	height:40px;
+	position:absolute;
+	float:left;
+	left:10%;
+   
+}
+.pic2{
+	width:20%;
+	height:40px;
+	position:absolute;
+	float:left;
+	left:32%;
+}
+.pic3{
+	width:20%;
+	height:40px;
+	position:absolute;
+	float:left;
+	left:54%;
+}
+.pic4{
+	width:20%;
+	height:40px;
+	position:absolute;
+	float:left;
+	left:76%;
+}
+
+#ztext{
+	 height: 100px;  
+     
+    clear: both;  
+    overflow-x: auto;  
+    overflow-y: hidden;  
+    white-space: nowrap;  
+    scroll-snap-points-x: repeat(100%);  
+    scroll-snap-type: mandatory;  
+}

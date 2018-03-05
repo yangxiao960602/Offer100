@@ -1,0 +1,145 @@
+.jobSearch{
+	width:1200px;
+	height:880px;
+	border:1px gray solid;
+}
+
+.myTitle{
+	width:700px;
+	margin:0 auto;
+}
+
+.mySelect{
+	height:28px;
+}
+
+.selectText{
+	height: 23px;
+}
+
+.category,.city{
+	width:160px;
+	height:28px;
+	background-color: white;
+	border:1px solid gray;
+	margin-left: 20px;
+}
+
+.category,.city:hover{
+	cursor: pointer;
+}
+
+.search{
+	width:60px;
+	height: 28px;
+	margin-left: 20px;
+	background-color: #EE2C2C;
+	color: white;
+	border: none;
+}
+
+body ul{
+	margin:0px; 
+	padding:0px;
+}
+
+body li{
+	list-style: none;
+	float:left;
+	margin-left: 30px;
+}
+
+.divCity2,.demand li:hover{
+	cursor: pointer;
+}
+
+.demand{
+	margin-top: 100px;
+}
+
+.demand li:hover{
+	color: #EE2C2C;
+}
+
+.demandSpan{
+	display: block;
+	float: left;
+}
+
+.salary,.year,.education{
+	border:1px solid;
+	padding-top: 10px;
+	width:1050px;
+	height: 40px;
+}
+
+.salary,.year{
+	border-bottom: none;
+}
+
+.resultTitle{
+	margin-top: 10px;
+	padding-top: 6px;
+	border: 1px solid;
+	width: 1050px;
+	height: 30px;
+}
+
+.jobName{
+	margin-left: 120px;
+}
+
+.resultjN{
+	border: 1px solid;
+	width:300px;
+	height: 40px;
+	float:left;
+}
+
+.epName{
+	margin-left: 260px;
+}
+
+.resulteN{
+	border: 1px solid;
+	width:300px;
+	height: 40px;
+	float:left;
+}
+
+.jobPlace{
+	margin-left: 170px;
+}
+
+.resultjP{
+	border: 1px solid;
+	width:150px;
+	height: 40px;
+	float:left;
+}
+
+.jobSalary{
+	margin-left: 100px;
+}
+
+.resultjS{
+	border: 1px solid;
+	width:150px;
+	height: 40px;
+	float:left;
+}
+
+.publishTime{
+	margin-left: 100px;
+}
+
+.resultpT{
+	border: 1px solid;
+	width:142px;
+	height: 40px;
+	float:left;
+}
+
+.selected2{
+	color: #EE2C2C;
+}

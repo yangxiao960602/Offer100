@@ -1,0 +1,224 @@
+.content{
+	width:1200px;
+	height:880px;
+	border:1px gray solid;
+}
+
+.contentP{
+	color: #EE2C2C;
+	font-size: 20px;
+}
+
+.jobCategory{
+	float:left;
+	margin-top: 10px;
+}
+
+.jobCategory span{
+	display: block;
+	float:left;
+}
+
+.jobCategory input{
+	width: 140px;
+	display: inline-block;
+	cursor: pointer;
+	background: none;
+	border:1px solid gray;
+}
+
+.publishTime{
+	float:left;
+	width:500px;
+	height:25px;
+	margin-left: 0px;
+	margin-top: 8px;
+}
+
+.publishTime span{
+	display: block;
+	float: left;
+	margin-left: 0px;
+}
+
+.publishTime li{
+	list-style: none;
+	float: left;
+	cursor: pointer;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+.search{
+	width:63px;
+	height: 26px;
+	margin-left: 10px;
+	margin-top: 6px;
+	border: none;
+	cursor: pointer;
+	background-color: #EE2C2C;
+	color: white;
+}
+
+.title{
+	border: 1px solid;
+	width:1000px;
+	height: 30px;
+	margin-top: 20px;
+	padding-top: 3px;
+	border-bottom: none;
+}
+
+.job{
+	margin-left: 80px;
+}
+
+.place{
+	margin-left: 100px;
+}
+
+.jsalary{
+	margin-left: 100px;
+}
+
+.time{
+	margin-left: 100px;
+}
+
+.number{
+	margin-left: 60px;
+}
+
+.operation{
+	margin-left: 100px;
+}
+
+.result{
+	border: 1px solid;
+	width:1000px;
+	height: 30px;
+}
+
+.resultOp{
+	display: block;
+	margin-left: 760px;
+}
+
+.cityHide{
+	display:none;
+}
+
+.divCity1{
+	width:100%;
+	height:100%;
+	border: 1px solid gray;
+	position: fixed;
+	left:0px;
+	top:0px;
+	background-color: gray;
+	opacity: 0.8; 
+	display: none;
+}
+
+.divCity2{
+	background-color: white;
+	width:800px;
+	height:600px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top:10%;
+	margin:0 auto;
+	display: none;
+}
+
+.divCity2Close{
+	width:800px;
+	height:20px;
+}
+
+.divCity2Close input{
+	background-image: url(../img/叉号.gif);
+	background-color: white;
+	float:right;
+	width: 23px;
+	border:none;
+}
+
+.divCity2Title{
+	width:800px;
+	float:left;
+}
+
+.Title1,.Title2,.Title3{
+	width: 120px;
+	color: #EE2C2C;
+	float:left;
+}
+
+.Title1{
+	margin-left: 20px;
+}
+
+.Title2{
+	margin-left: 40px;
+}
+
+.Title3{
+	margin-left: 100px;
+}
+
+.divIndustry{
+	width:220px;
+	height:500px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	float: left;
+}
+
+.divIndustry li{
+	margin-left: 20px;
+	line-height: 40px;
+	width:200px;
+}
+
+.divCity2 ul{
+	display: block;
+	height:30px;
+	line-height:40px;
+}
+
+.divCity2 li:hover{
+	background-color: #D5D5D5;
+	cursor: pointer;
+}
+
+.selected1{
+	background-color: #EE2C2C;
+	color: white;
+}
+
+.divCity{
+	width:700px;
+	height:450px;
+	margin-left: 100px;
+}
+
+.divCity li{
+	float: left;
+	margin:0px 20px;
+}
+
+.cityButton input{
+	display:inline-block;
+	width: 50px;
+	height: 34px;
+	margin-left: 160px;
+	background-color: #EE2C2C;
+	color: white;
+	border: none;
+}
+
+.cityButton input:hover{
+	cursor: pointer;
+}

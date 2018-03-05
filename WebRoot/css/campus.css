@@ -1,0 +1,102 @@
+@charset "UTF-8";
+.change a:hover img{filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6;} 
+/*图片放大*/
+.change{
+overflow: hidden;
+}
+.change>a>img{
+transform: scale(1);
+transition: transform 0.5s ease;
+}
+.change>a>img:hover{
+transform: scale(1.1);
+}
+
+
+ul#text li a{
+	text-decoration: none;
+	color:#000;
+}
+ul#text li a:hover{
+	color:#ee2c2c;
+}
+ul#text li:hover{
+	color:#ee2c2c;
+}
+ul#text li{
+	line-height:30px;
+}
+
+
+ul li#btn1 a{
+	text-decoration: none;
+	color: #000;
+	border-bottom:none;
+}
+ul li#btn1 a:hover{
+	text-decoration: none;
+	background-color:#e8e8e8;
+	border-bottom:none;
+}
+ul li#btn2 a{
+	text-decoration: none;
+	color: #000;
+	border-bottom:none;
+}
+ul li#btn2 a:hover{
+	text-decoration: none;
+	background-color: #e8e8e8;
+	border-bottom:none;
+}
+
+ul li#btn1{
+	border-right:solid 1px grey;
+}
+ul li#btn2{
+	border-bottom:solid 1px grey;
+}
+
+
+
+
+.overimg{
+	display: inline-block;
+    float: left;
+	position:relative;
+	margin-left:-30px;
+}
+.overimg a{
+	display: inline-block;
+    float: left;
+	position:relative;
+	outline: 1px solid #c0c0c0;
+}
+.overimg a img {
+    width: 100%;
+}
+.over-bdg{
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    width: 100%;
+    background: none;
+    height: 100%;   
+    display:none;
+    line-height:200px;
+    overflow:hidden;
+    font-size:150px;
+    color:#fff;
+}
+.inf{
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    width: 100%;
+    background: none;
+    height: 100%;   
+}
+.overimg:hover div.over-bdg{
+	background:rgba(0, 0, 0, 0.2);
+	display:block;
+}
+
